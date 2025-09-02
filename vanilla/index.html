@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estética Bella - Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Estética Bella</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="about.html">Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Tu belleza, nuestra pasión</h2>
+      <p>Servicios profesionales para resaltar tu estilo.</p>
+      <a class="btn" href="https://wa.me/525512345567" target="_blank">Reserva por WhatsApp</a>
+    </section>
+
+    <section class="services">
+      <h2>Servicios</h2>
+      <div class="filters">
+        <button class="filter-btn active" data-category="todos">Todos</button>
+        <button class="filter-btn" data-category="uñas">Uñas</button>
+        <button class="filter-btn" data-category="maquillaje">Maquillaje</button>
+        <button class="filter-btn" data-category="peinado">Peinado</button>
+        <button class="filter-btn" data-category="cortecolor">Corte y Color</button>
+        <button class="filter-btn" data-category="tratamientos">Tratamientos</button>
+      </div>
+      <div id="service-list" class="service-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Estética Bella. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
