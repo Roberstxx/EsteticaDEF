@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# Estética Bella - Beauty Salon Website
 
-## Project info
+A modern, elegant website for a beauty salon built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/95dd8566-28dc-4002-adcc-6ef24ade9ceb
+## 🌟 Features
 
-## How can I edit this code?
+- **Professional Design**: Elegant purple-themed design with custom design system
+- **Service Catalog**: Filterable services by category, tags, price, and duration
+- **WhatsApp Integration**: Direct booking and consultation via WhatsApp
+- **Responsive Design**: Mobile-first approach with beautiful layouts
+- **SEO Optimized**: Proper meta tags, semantic HTML, and structured data
+- **Performance**: Fast loading with optimized images and animations
 
-There are several ways of editing your application.
+## 🎨 Design System
 
-**Use Lovable**
+### Colors
+- **Primary**: #7C3AED (Purple)
+- **Secondary**: #F3E8FF (Light Purple)
+- **Accent**: #EDE9FE (Soft Purple)
+- **Neutral**: #6B7280 (Gray)
+- **Background**: #F8FAFC (Light Gray)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/95dd8566-28dc-4002-adcc-6ef24ade9ceb) and start prompting.
+### Typography
+- **Headers**: Playfair Display (Serif)
+- **Body**: Inter (Sans-serif)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📱 Pages
 
-**Use your preferred IDE**
+1. **Home** (`/`) - Hero section, featured services, testimonials, gallery
+2. **Services** (`/services`) - Complete service catalog with filters
+3. **About** (`/about`) - Company story, values, and team
+4. **Contact** (`/contact`) - Contact form, location, and business hours
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠 Services Offered
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Uñas** (Nails): Acrylic nails, manicures, nail art
+- **Maquillaje** (Makeup): Event makeup, bridal makeup
+- **Peinado** (Hairstyling): Elegant updos, event styling
+- **CorteColor** (Cuts & Color): Hair cuts for men and women
+- **Tratamientos** (Treatments): Hair treatments and care
 
-Follow these steps:
+## 🚀 Technology Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **React 18** - Modern React with hooks
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Beautiful icons
+- **React Router** - Client-side routing
+- **Vite** - Fast build tool
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📞 Contact Integration
 
-# Step 3: Install the necessary dependencies.
-npm i
+The website includes WhatsApp integration for:
+- Service bookings
+- General inquiries
+- Quick consultations
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Phone: +52 55 1234 5567
+WhatsApp: Direct links with pre-filled messages
 
-**Edit a file directly in GitHub**
+## 🎯 Key Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Service Filtering
+- Filter by category (Uñas, Maquillaje, Peinado, etc.)
+- Filter by tags (Boda, Evento, Express, etc.)
+- Price range filtering ($0 - $2000)
+- Duration filtering (0 - 180 minutes)
+- Text search functionality
 
-**Use GitHub Codespaces**
+### Responsive Design
+- Mobile-first approach
+- Tablet and desktop optimized
+- Touch-friendly interface
+- Accessible navigation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Performance Features
+- Lazy loading for images
+- Smooth animations with CSS transitions
+- Optimized component architecture
+- Clean code structure
 
-## What technologies are used for this project?
+## 🏢 Business Information
 
-This project is built with:
+**Estética Bella**
+- Address: Av. Revolución 123, Col. Centro, CDMX 06000
+- Hours: Mon-Fri 9AM-8PM, Sat 9AM-6PM, Sun 10AM-4PM
+- Experience: 3+ years
+- Satisfied clients: 500+
+- Services: 15+ specialized treatments
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔧 Development Notes
 
-## How can I deploy this project?
+This project was adapted from an HTML/CSS/JS specification to work with React/TypeScript. All original functionality has been preserved while taking advantage of React's component architecture and TypeScript's type safety.
 
-Simply open [Lovable](https://lovable.dev/projects/95dd8566-28dc-4002-adcc-6ef24ade9ceb) and click on Share -> Publish.
+The design follows modern web standards with:
+- Semantic HTML structure
+- ARIA labels for accessibility
+- SEO-optimized meta tags
+- Mobile-responsive design
+- Progressive enhancement principles
 
-## Can I connect a custom domain to my Lovable project?
+## 📈 SEO Features
 
-Yes, you can!
+- Optimized title tags and meta descriptions
+- Structured JSON-LD data for local business
+- Open Graph and Twitter Card tags
+- Canonical URLs
+- Image alt tags
+- Semantic HTML structure
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ by Lovable for Estética Bella
