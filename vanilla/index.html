@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estética Bella - Versión Simple</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Estética Bella</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>Tu belleza, nuestra pasión</h2>
+      <p>Servicios profesionales para resaltar tu estilo.</p>
+      <a class="btn" href="https://wa.me/525512345567" target="_blank">Reserva por WhatsApp</a>
+    </section>
+
+    <section id="servicios" class="services">
+      <h2>Servicios</h2>
+      <div class="filters">
+        <button class="filter-btn active" data-category="todos">Todos</button>
+        <button class="filter-btn" data-category="uñas">Uñas</button>
+        <button class="filter-btn" data-category="maquillaje">Maquillaje</button>
+        <button class="filter-btn" data-category="peinado">Peinado</button>
+      </div>
+      <div id="service-list" class="service-list"></div>
+    </section>
+
+    <section id="nosotros" class="about">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos un salón de belleza con más de 3 años ofreciendo servicios
+         profesionales y personalizados. Nuestro equipo está comprometido
+         con resaltar tu belleza natural.</p>
+    </section>
+
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <p>Teléfono: <a href="tel:+525512345567">+52 55 1234 5567</a></p>
+      <p>Dirección: Av. Revolución 123, Col. Centro, CDMX</p>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="name" placeholder="Tu nombre" required />
+        <input type="email" id="email" placeholder="Tu correo" required />
+        <textarea id="message" placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      <div id="form-status" class="form-status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Estética Bella. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
