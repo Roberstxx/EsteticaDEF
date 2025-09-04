@@ -4,65 +4,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estética Beauty Salon Design System */
+/* Estética Beauty Salon Design System - Rosa Pastel */
 @layer base {
   :root {
-    --background: 248 250 252; /* #F8FAFC */
-    --foreground: 17 17 17; /* #111111 */
+    --background: 253 252 251; /* #FDFCFB */
+    --foreground: 55 65 81; /* #374151 */
 
     --card: 0 0% 100%;
-    --card-foreground: 17 17 17;
+    --card-foreground: 55 65 81;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 17 17 17;
+    --popover-foreground: 55 65 81;
 
-    /* Purple branding */
-    --primary: 262 83% 58%; /* #7C3AED */
+    /* Rosa pastel branding */
+    --primary: 330 81% 60%; /* #E879B9 */
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 262 100% 85%;
+    --primary-glow: 330 100% 90%;
 
-    --secondary: 262 100% 95%; /* #F3E8FF */
-    --secondary-foreground: 262 83% 58%;
+    --secondary: 330 100% 97%; /* #FDF2F8 */
+    --secondary-foreground: 330 81% 60%;
 
-    --muted: 248 250 252;
+    --muted: 330 40% 96;
     --muted-foreground: 107 114 128; /* #6B7280 */
 
-    --accent: 262 87% 92%; /* #EDE9FE */
-    --accent-foreground: 262 83% 58%;
+    --accent: 330 100% 95%; /* #FCE7F3 */
+    --accent-foreground: 330 81% 60%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 262 87% 92%;
-    --input: 262 87% 92%;
-    --ring: 262 83% 58%;
+    --border: 330 100% 95%;
+    --input: 330 100% 95%;
+    --ring: 330 81% 60%;
 
     --radius: 0.75rem;
 
     /* Beauty salon specific tokens */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-soft: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
-    --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 2px 8px -2px hsl(0 0% 0% / 0.08);
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.25);
+    --shadow-card: 0 2px 8px -2px hsl(330 81% 60% / 0.08);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 17 17 17;
+    --background: 24 24 27;
     --foreground: 248 250 252;
-    --card: 30 30 35;
+    --card: 39 39 42;
     --card-foreground: 248 250 252;
-    --primary: 262 100% 85%;
-    --primary-foreground: 17 17 17;
-    --secondary: 262 20% 20%;
-    --secondary-foreground: 262 100% 95%;
-    --muted: 30 30 35;
+    --primary: 330 100% 80%;
+    --primary-foreground: 24 24 27;
+    --secondary: 330 30% 15%;
+    --secondary-foreground: 330 100% 95%;
+    --muted: 39 39 42;
     --muted-foreground: 107 114 128;
-    --accent: 262 20% 25%;
-    --accent-foreground: 262 100% 95%;
-    --border: 30 30 35;
-    --input: 30 30 35;
-    --ring: 262 100% 85%;
+    --accent: 330 30% 20%;
+    --accent-foreground: 330 100% 95%;
+    --border: 39 39 42;
+    --input: 39 39 42;
+    --ring: 330 100% 80%;
   }
 }
 
@@ -113,7 +113,7 @@
   }
 
   .hero-section {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, rgba(243, 232, 255, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(232, 121, 185, 0.08) 0%, rgba(253, 242, 248, 0.4) 100%);
   }
 
   .filter-pill {

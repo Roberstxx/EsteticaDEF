@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-beauty.jpg';
 
 const Hero = () => {
@@ -61,7 +62,7 @@ const Hero = () => {
               asChild
               className="px-8 py-6 text-lg border-2 hover:bg-accent"
             >
-              <a href="#servicios">Ver servicios</a>
+              <Link to="/services">Ver servicios</Link>
             </Button>
           </div>
 
