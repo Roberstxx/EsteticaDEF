@@ -2,7 +2,7 @@ import { services } from '@/data/services';
 import ServiceCard from './ServiceCard';
 
 const FeaturedServices = () => {
-  const featuredServices = services.slice(0, 4);
+  const featuredServices = services;
 
   const handleReservar = (serviceId: string) => {
     const service = services.find(s => s.id === serviceId);
