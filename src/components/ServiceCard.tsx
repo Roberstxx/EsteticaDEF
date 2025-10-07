@@ -1,5 +1,5 @@
-import { Clock, Star } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Clock } from 'lucide-react';
+import { Button } from '@/components/Button';
 import { Service } from '@/data/services';
 
 interface ServiceCardProps {
@@ -21,7 +21,10 @@ const ServiceCard = ({ service, onReservar, onVerDetalle }: ServiceCardProps) =>
         <img
           src={`/src/assets/${service.imagenes[0]}`}
           alt={service.titulo}
-          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-48 object-cover transition-transform"
+          style={{transitionDuration: '300ms'}}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         />
         <div className="absolute top-3 left-3">
           <span className="beauty-badge beauty-badge--category">

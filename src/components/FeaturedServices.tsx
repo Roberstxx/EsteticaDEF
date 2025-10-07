@@ -2,7 +2,6 @@ import { services } from '@/data/services';
 import ServiceCard from './ServiceCard';
 
 const FeaturedServices = () => {
-  // Get first 4 services as featured
   const featuredServices = services.slice(0, 4);
 
   const handleReservar = (serviceId: string) => {
@@ -14,7 +13,6 @@ const FeaturedServices = () => {
   };
 
   const handleVerDetalle = (serviceId: string) => {
-    // In a real app, this would navigate to service detail page
     const service = services.find(s => s.id === serviceId);
     if (service) {
       alert(`Navegando a detalle del servicio: ${service.titulo}`);
@@ -22,7 +20,7 @@ const FeaturedServices = () => {
   };
 
   return (
-    <section id="servicios" className="py-16 lg:py-24 bg-gradient-to-b from-background to-secondary/20">
+    <section id="servicios" className="py-16 lg:py-24 bg-gradient-to-b">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -50,6 +48,9 @@ const FeaturedServices = () => {
           <a
             href="/services"
             className="inline-flex items-center text-primary hover:text-primary-glow transition-colors font-medium"
+            style={{color: 'var(--color-primary)'}}
+            onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-primary-glow)'}
+            onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-primary)'}
           >
             Ver todos los servicios
             <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

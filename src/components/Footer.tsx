@@ -4,12 +4,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-foreground text-background">
+    <footer className="footer">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-serif text-2xl font-bold bg-gradient-to-r from-primary-glow to-white bg-clip-text text-transparent">
+            <h3 className="footer-title">
               Estética Bella
             </h3>
             <p className="text-gray-300 text-sm">
@@ -21,7 +21,7 @@ const Footer = () => {
                 href="https://instagram.com/esteticabella"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary-glow transition-colors"
+                className="footer-link"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
@@ -30,7 +30,7 @@ const Footer = () => {
                 href="https://facebook.com/esteticabella"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary-glow transition-colors"
+                className="footer-link"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -42,19 +42,19 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-white">Enlaces Rápidos</h4>
             <nav className="space-y-2">
-              <a href="/" className="block text-gray-300 hover:text-primary-glow transition-colors text-sm">
+              <a href="/" className="footer-link block text-sm">
                 Inicio
               </a>
-              <a href="/services" className="block text-gray-300 hover:text-primary-glow transition-colors text-sm">
+              <a href="/services" className="footer-link block text-sm">
                 Servicios
               </a>
-              <a href="/portfolio" className="block text-gray-300 hover:text-primary-glow transition-colors text-sm">
+              <a href="/portfolio" className="footer-link block text-sm">
                 Portafolio
               </a>
-              <a href="/about" className="block text-gray-300 hover:text-primary-glow transition-colors text-sm">
+              <a href="/about" className="footer-link block text-sm">
                 Acerca de
               </a>
-              <a href="/contact" className="block text-gray-300 hover:text-primary-glow transition-colors text-sm">
+              <a href="/contact" className="footer-link block text-sm">
                 Contacto
               </a>
             </nav>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <Phone className="h-4 w-4 text-primary-glow flex-shrink-0" />
                 <a 
                   href="tel:+525551234567" 
-                  className="text-gray-300 text-sm hover:text-primary-glow transition-colors"
+                  className="footer-link text-sm"
                 >
                   +52 55 1234 5567
                 </a>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <Mail className="h-4 w-4 text-primary-glow flex-shrink-0" />
                 <a 
                   href="mailto:hola@esteticabella.com" 
-                  className="text-gray-300 text-sm hover:text-primary-glow transition-colors"
+                  className="footer-link text-sm"
                 >
                   hola@esteticabella.com
                 </a>
@@ -122,10 +122,10 @@ const Footer = () => {
               © {currentYear} Estética Bella. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-primary-glow transition-colors">
+              <a href="/privacy" className="footer-link">
                 Privacidad
               </a>
-              <a href="/terms" className="text-gray-400 hover:text-primary-glow transition-colors">
+              <a href="/terms" className="footer-link">
                 Términos
               </a>
             </div>

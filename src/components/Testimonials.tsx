@@ -2,11 +2,10 @@ import { testimonials } from '@/data/testimonials';
 import TestimonialCard from './TestimonialCard';
 
 const Testimonials = () => {
-  // Get first 3 testimonials
   const featuredTestimonials = testimonials.slice(0, 3);
 
   return (
-    <section className="py-16 lg:py-24 bg-secondary/30">
+    <section className="py-16 lg:py-24" style={{backgroundColor: 'rgba(253, 242, 248, 0.3)'}}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
